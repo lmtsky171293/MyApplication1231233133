@@ -56,13 +56,18 @@ public class MainActivity extends Activity {
         greetingButton.setText(buttonLabel);
      //   greetingButton.setOnClickListener(new Toaster());
         mainWindow.addView(greetingButton);
-        setContentView(mainWindow);
+
         // Add new
         Button btAAAA = new Button(this);
         btAAAA.setText("AAAAAAAAAAAA");
         mainWindow.addView(btAAAA);
         setContentView(mainWindow);
+        ///// Add Git Newv.2 test
+        Button btBBBB = new Button(this);
+        btBBBB.setText("AAAAAAAAAAAA");
+        mainWindow.addView(btBBBB);
 
+        setContentView(mainWindow);
     }
 
     /** Implements View.ClickListener. Uses the named inner class
